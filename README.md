@@ -2,6 +2,7 @@
 
 Este é um simples decodificador de texto desenvolvido utilizando HTML, CSS e JavaScript. Permite aos usuários criptografar e descriptografar texto utilizando um conjunto específico de regras.
 
+
 ## Funcionalidades
 
 - **Criptografar Texto**: Transforma o texto inserido conforme chaves de criptografia pré-definidas.
@@ -36,6 +37,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 Desenvolvido por [Gabriel Mark´s](https://github.com/seu-usuario).
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
