@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+
+                <div class="logo">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h1>Decodificador</h1>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="destaque">
+                <section class="section-destaque">
+                    <article class="article">
+                        <label for="texto">Vamos codificar?</label>
+                        <textarea name="texto" id="texto" placeholder="Digite o seu texto aqui..."></textarea>
+                    </article>
+
+                    <div class="action">
+                        <h3>
+                            <ion-icon name="alert-circle"></ion-icon>
+                            Apenas letras minúsculas e sem acento.
+                        </h3>
+
+                        <div class="action-btn">
+                            <button class="btn" id="btn-criptografar">Criptografar</button>
+                            <button class="btn btn-action" id="btn-descriptografar">Descriptografar</button>
+                        </div>
+                    </div>
+                </section>
+
+                <aside class="aside">
+                    <div class="imagem-aside">
+                        <img src="/assets/img/High quality products 1 1.svg" alt="Ilustração">
+                    </div>
+                    <div class="content-aside">
+                        <h3>Nenhuma mensagem encontrada</h3>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        &copy; Desenvolvido por <span>Gabriel Mark´s</span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
